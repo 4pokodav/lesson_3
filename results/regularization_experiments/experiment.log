@@ -1,0 +1,167 @@
+[2025-07-04 00:22:02,084] INFO - Начало экспериментов по регуляризации
+[2025-07-04 00:22:02,084] INFO - Запуск экспериментов по регуляризации
+[2025-07-04 00:22:02,084] INFO - Обучение модели с конфигурацией: No Regularization
+[2025-07-04 00:22:16,399] INFO - Epoch 1/15 - Train loss: 0.2579, Train acc: 0.9222, Test loss: 0.1349, Test acc: 0.9606
+[2025-07-04 00:22:31,445] INFO - Epoch 2/15 - Train loss: 0.1018, Train acc: 0.9681, Test loss: 0.0877, Test acc: 0.9736
+[2025-07-04 00:22:46,480] INFO - Epoch 3/15 - Train loss: 0.0698, Train acc: 0.9782, Test loss: 0.0816, Test acc: 0.9752
+[2025-07-04 00:23:02,582] INFO - Epoch 4/15 - Train loss: 0.0555, Train acc: 0.9823, Test loss: 0.0725, Test acc: 0.9778
+[2025-07-04 00:23:18,346] INFO - Epoch 5/15 - Train loss: 0.0445, Train acc: 0.9855, Test loss: 0.0807, Test acc: 0.9776
+[2025-07-04 00:23:32,613] INFO - Epoch 6/15 - Train loss: 0.0362, Train acc: 0.9877, Test loss: 0.0826, Test acc: 0.9759
+[2025-07-04 00:23:47,689] INFO - Epoch 7/15 - Train loss: 0.0321, Train acc: 0.9891, Test loss: 0.0810, Test acc: 0.9774
+[2025-07-04 00:24:03,826] INFO - Epoch 8/15 - Train loss: 0.0265, Train acc: 0.9916, Test loss: 0.0759, Test acc: 0.9803
+[2025-07-04 00:24:19,422] INFO - Epoch 9/15 - Train loss: 0.0274, Train acc: 0.9909, Test loss: 0.0815, Test acc: 0.9792
+[2025-07-04 00:24:34,154] INFO - Epoch 10/15 - Train loss: 0.0237, Train acc: 0.9922, Test loss: 0.0882, Test acc: 0.9769
+[2025-07-04 00:24:48,843] INFO - Epoch 11/15 - Train loss: 0.0215, Train acc: 0.9930, Test loss: 0.0700, Test acc: 0.9832
+[2025-07-04 00:25:03,529] INFO - Epoch 12/15 - Train loss: 0.0170, Train acc: 0.9950, Test loss: 0.0985, Test acc: 0.9769
+[2025-07-04 00:25:18,296] INFO - Epoch 13/15 - Train loss: 0.0189, Train acc: 0.9935, Test loss: 0.1007, Test acc: 0.9783
+[2025-07-04 00:25:33,120] INFO - Epoch 14/15 - Train loss: 0.0199, Train acc: 0.9933, Test loss: 0.0897, Test acc: 0.9800
+[2025-07-04 00:25:47,892] INFO - Epoch 15/15 - Train loss: 0.0132, Train acc: 0.9957, Test loss: 0.1029, Test acc: 0.9794
+[2025-07-04 00:25:48,407] INFO - Обучение модели с конфигурацией: Dropout 0.1
+[2025-07-04 00:26:03,254] INFO - Epoch 1/15 - Train loss: 0.2846, Train acc: 0.9139, Test loss: 0.1179, Test acc: 0.9624
+[2025-07-04 00:26:18,130] INFO - Epoch 2/15 - Train loss: 0.1215, Train acc: 0.9638, Test loss: 0.1001, Test acc: 0.9698
+[2025-07-04 00:26:33,006] INFO - Epoch 3/15 - Train loss: 0.0957, Train acc: 0.9704, Test loss: 0.0867, Test acc: 0.9712
+[2025-07-04 00:26:47,794] INFO - Epoch 4/15 - Train loss: 0.0752, Train acc: 0.9771, Test loss: 0.0708, Test acc: 0.9771
+[2025-07-04 00:27:03,011] INFO - Epoch 5/15 - Train loss: 0.0647, Train acc: 0.9799, Test loss: 0.0739, Test acc: 0.9782
+[2025-07-04 00:27:18,101] INFO - Epoch 6/15 - Train loss: 0.0586, Train acc: 0.9821, Test loss: 0.0817, Test acc: 0.9755
+[2025-07-04 00:27:33,365] INFO - Epoch 7/15 - Train loss: 0.0506, Train acc: 0.9837, Test loss: 0.0843, Test acc: 0.9774
+[2025-07-04 00:27:48,909] INFO - Epoch 8/15 - Train loss: 0.0457, Train acc: 0.9856, Test loss: 0.0784, Test acc: 0.9781
+[2025-07-04 00:28:04,154] INFO - Epoch 9/15 - Train loss: 0.0407, Train acc: 0.9871, Test loss: 0.0707, Test acc: 0.9802
+[2025-07-04 00:28:18,976] INFO - Epoch 10/15 - Train loss: 0.0400, Train acc: 0.9876, Test loss: 0.0670, Test acc: 0.9810
+[2025-07-04 00:28:33,800] INFO - Epoch 11/15 - Train loss: 0.0383, Train acc: 0.9874, Test loss: 0.0725, Test acc: 0.9800
+[2025-07-04 00:28:48,687] INFO - Epoch 12/15 - Train loss: 0.0343, Train acc: 0.9898, Test loss: 0.0701, Test acc: 0.9795
+[2025-07-04 00:29:03,522] INFO - Epoch 13/15 - Train loss: 0.0329, Train acc: 0.9897, Test loss: 0.0657, Test acc: 0.9811
+[2025-07-04 00:29:18,285] INFO - Epoch 14/15 - Train loss: 0.0304, Train acc: 0.9905, Test loss: 0.0688, Test acc: 0.9814
+[2025-07-04 00:29:33,120] INFO - Epoch 15/15 - Train loss: 0.0289, Train acc: 0.9911, Test loss: 0.0838, Test acc: 0.9788
+[2025-07-04 00:29:33,557] INFO - Обучение модели с конфигурацией: Dropout 0.3
+[2025-07-04 00:29:48,386] INFO - Epoch 1/15 - Train loss: 0.3855, Train acc: 0.8847, Test loss: 0.1463, Test acc: 0.9572
+[2025-07-04 00:30:03,357] INFO - Epoch 2/15 - Train loss: 0.1857, Train acc: 0.9480, Test loss: 0.1057, Test acc: 0.9682
+[2025-07-04 00:30:18,689] INFO - Epoch 3/15 - Train loss: 0.1445, Train acc: 0.9598, Test loss: 0.0887, Test acc: 0.9743
+[2025-07-04 00:30:33,581] INFO - Epoch 4/15 - Train loss: 0.1270, Train acc: 0.9648, Test loss: 0.0905, Test acc: 0.9727
+[2025-07-04 00:30:48,514] INFO - Epoch 5/15 - Train loss: 0.1150, Train acc: 0.9675, Test loss: 0.0899, Test acc: 0.9752
+[2025-07-04 00:31:03,847] INFO - Epoch 6/15 - Train loss: 0.1041, Train acc: 0.9706, Test loss: 0.0779, Test acc: 0.9773
+[2025-07-04 00:31:18,610] INFO - Epoch 7/15 - Train loss: 0.0956, Train acc: 0.9725, Test loss: 0.0783, Test acc: 0.9788
+[2025-07-04 00:31:34,488] INFO - Epoch 8/15 - Train loss: 0.0878, Train acc: 0.9743, Test loss: 0.0786, Test acc: 0.9784
+[2025-07-04 00:31:49,533] INFO - Epoch 9/15 - Train loss: 0.0859, Train acc: 0.9756, Test loss: 0.0763, Test acc: 0.9789
+[2025-07-04 00:32:04,551] INFO - Epoch 10/15 - Train loss: 0.0786, Train acc: 0.9771, Test loss: 0.0698, Test acc: 0.9819
+[2025-07-04 00:32:19,532] INFO - Epoch 11/15 - Train loss: 0.0791, Train acc: 0.9771, Test loss: 0.0752, Test acc: 0.9795
+[2025-07-04 00:32:34,488] INFO - Epoch 12/15 - Train loss: 0.0745, Train acc: 0.9779, Test loss: 0.0733, Test acc: 0.9791
+[2025-07-04 00:32:50,001] INFO - Epoch 13/15 - Train loss: 0.0695, Train acc: 0.9790, Test loss: 0.0705, Test acc: 0.9809
+[2025-07-04 00:33:06,316] INFO - Epoch 14/15 - Train loss: 0.0677, Train acc: 0.9795, Test loss: 0.0797, Test acc: 0.9804
+[2025-07-04 00:33:21,350] INFO - Epoch 15/15 - Train loss: 0.0632, Train acc: 0.9806, Test loss: 0.0759, Test acc: 0.9812
+[2025-07-04 00:33:21,803] INFO - Обучение модели с конфигурацией: Dropout 0.5
+[2025-07-04 00:33:36,740] INFO - Epoch 1/15 - Train loss: 0.5741, Train acc: 0.8268, Test loss: 0.1740, Test acc: 0.9497
+[2025-07-04 00:33:51,807] INFO - Epoch 2/15 - Train loss: 0.3026, Train acc: 0.9199, Test loss: 0.1389, Test acc: 0.9600
+[2025-07-04 00:34:06,911] INFO - Epoch 3/15 - Train loss: 0.2552, Train acc: 0.9339, Test loss: 0.1302, Test acc: 0.9618
+[2025-07-04 00:34:22,332] INFO - Epoch 4/15 - Train loss: 0.2266, Train acc: 0.9411, Test loss: 0.1119, Test acc: 0.9696
+[2025-07-04 00:34:37,738] INFO - Epoch 5/15 - Train loss: 0.2106, Train acc: 0.9453, Test loss: 0.1083, Test acc: 0.9702
+[2025-07-04 00:34:53,849] INFO - Epoch 6/15 - Train loss: 0.2038, Train acc: 0.9474, Test loss: 0.1041, Test acc: 0.9696
+[2025-07-04 00:35:09,245] INFO - Epoch 7/15 - Train loss: 0.1837, Train acc: 0.9522, Test loss: 0.1099, Test acc: 0.9690
+[2025-07-04 00:35:24,492] INFO - Epoch 8/15 - Train loss: 0.1777, Train acc: 0.9529, Test loss: 0.1058, Test acc: 0.9721
+[2025-07-04 00:35:39,783] INFO - Epoch 9/15 - Train loss: 0.1686, Train acc: 0.9555, Test loss: 0.0959, Test acc: 0.9745
+[2025-07-04 00:35:55,121] INFO - Epoch 10/15 - Train loss: 0.1663, Train acc: 0.9562, Test loss: 0.0928, Test acc: 0.9743
+[2025-07-04 00:36:10,273] INFO - Epoch 11/15 - Train loss: 0.1589, Train acc: 0.9577, Test loss: 0.0915, Test acc: 0.9760
+[2025-07-04 00:36:25,967] INFO - Epoch 12/15 - Train loss: 0.1537, Train acc: 0.9584, Test loss: 0.0914, Test acc: 0.9756
+[2025-07-04 00:36:41,196] INFO - Epoch 13/15 - Train loss: 0.1516, Train acc: 0.9595, Test loss: 0.0889, Test acc: 0.9770
+[2025-07-04 00:36:57,254] INFO - Epoch 14/15 - Train loss: 0.1464, Train acc: 0.9608, Test loss: 0.0953, Test acc: 0.9770
+[2025-07-04 00:37:13,232] INFO - Epoch 15/15 - Train loss: 0.1391, Train acc: 0.9630, Test loss: 0.0875, Test acc: 0.9755
+[2025-07-04 00:37:13,741] INFO - Обучение модели с конфигурацией: BatchNorm only
+[2025-07-04 00:37:30,121] INFO - Epoch 1/15 - Train loss: 0.2307, Train acc: 0.9405, Test loss: 0.1027, Test acc: 0.9680
+[2025-07-04 00:37:45,346] INFO - Epoch 2/15 - Train loss: 0.0908, Train acc: 0.9728, Test loss: 0.0748, Test acc: 0.9763
+[2025-07-04 00:38:01,061] INFO - Epoch 3/15 - Train loss: 0.0656, Train acc: 0.9794, Test loss: 0.0703, Test acc: 0.9770
+[2025-07-04 00:38:16,743] INFO - Epoch 4/15 - Train loss: 0.0501, Train acc: 0.9840, Test loss: 0.0649, Test acc: 0.9797
+[2025-07-04 00:38:31,881] INFO - Epoch 5/15 - Train loss: 0.0408, Train acc: 0.9867, Test loss: 0.0643, Test acc: 0.9799
+[2025-07-04 00:38:47,028] INFO - Epoch 6/15 - Train loss: 0.0355, Train acc: 0.9879, Test loss: 0.0627, Test acc: 0.9797
+[2025-07-04 00:39:02,175] INFO - Epoch 7/15 - Train loss: 0.0321, Train acc: 0.9892, Test loss: 0.0646, Test acc: 0.9800
+[2025-07-04 00:39:17,303] INFO - Epoch 8/15 - Train loss: 0.0265, Train acc: 0.9906, Test loss: 0.0708, Test acc: 0.9808
+[2025-07-04 00:39:32,528] INFO - Epoch 9/15 - Train loss: 0.0222, Train acc: 0.9930, Test loss: 0.0637, Test acc: 0.9831
+[2025-07-04 00:39:47,649] INFO - Epoch 10/15 - Train loss: 0.0231, Train acc: 0.9922, Test loss: 0.0682, Test acc: 0.9808
+[2025-07-04 00:40:02,791] INFO - Epoch 11/15 - Train loss: 0.0177, Train acc: 0.9941, Test loss: 0.0739, Test acc: 0.9812
+[2025-07-04 00:40:17,927] INFO - Epoch 12/15 - Train loss: 0.0170, Train acc: 0.9940, Test loss: 0.0714, Test acc: 0.9814
+[2025-07-04 00:40:33,059] INFO - Epoch 13/15 - Train loss: 0.0151, Train acc: 0.9952, Test loss: 0.0703, Test acc: 0.9799
+[2025-07-04 00:40:48,143] INFO - Epoch 14/15 - Train loss: 0.0164, Train acc: 0.9946, Test loss: 0.0601, Test acc: 0.9826
+[2025-07-04 00:41:03,320] INFO - Epoch 15/15 - Train loss: 0.0133, Train acc: 0.9954, Test loss: 0.0624, Test acc: 0.9834
+[2025-07-04 00:41:03,887] INFO - Обучение модели с конфигурацией: Dropout 0.5 + BatchNorm
+[2025-07-04 00:41:19,375] INFO - Epoch 1/15 - Train loss: 0.6290, Train acc: 0.8269, Test loss: 0.1668, Test acc: 0.9507
+[2025-07-04 00:41:34,782] INFO - Epoch 2/15 - Train loss: 0.3388, Train acc: 0.9062, Test loss: 0.1224, Test acc: 0.9646
+[2025-07-04 00:41:50,127] INFO - Epoch 3/15 - Train loss: 0.2817, Train acc: 0.9230, Test loss: 0.1087, Test acc: 0.9669
+[2025-07-04 00:42:05,436] INFO - Epoch 4/15 - Train loss: 0.2494, Train acc: 0.9322, Test loss: 0.0976, Test acc: 0.9708
+[2025-07-04 00:42:20,942] INFO - Epoch 5/15 - Train loss: 0.2273, Train acc: 0.9388, Test loss: 0.0909, Test acc: 0.9719
+[2025-07-04 00:42:36,318] INFO - Epoch 6/15 - Train loss: 0.2101, Train acc: 0.9436, Test loss: 0.0874, Test acc: 0.9751
+[2025-07-04 00:42:51,653] INFO - Epoch 7/15 - Train loss: 0.1984, Train acc: 0.9470, Test loss: 0.0812, Test acc: 0.9755
+[2025-07-04 00:43:07,022] INFO - Epoch 8/15 - Train loss: 0.1879, Train acc: 0.9506, Test loss: 0.0840, Test acc: 0.9762
+[2025-07-04 00:43:22,461] INFO - Epoch 9/15 - Train loss: 0.1867, Train acc: 0.9498, Test loss: 0.0765, Test acc: 0.9770
+[2025-07-04 00:43:37,873] INFO - Epoch 10/15 - Train loss: 0.1725, Train acc: 0.9536, Test loss: 0.0702, Test acc: 0.9787
+[2025-07-04 00:43:53,244] INFO - Epoch 11/15 - Train loss: 0.1654, Train acc: 0.9551, Test loss: 0.0713, Test acc: 0.9791
+[2025-07-04 00:44:08,589] INFO - Epoch 12/15 - Train loss: 0.1613, Train acc: 0.9566, Test loss: 0.0662, Test acc: 0.9795
+[2025-07-04 00:44:23,941] INFO - Epoch 13/15 - Train loss: 0.1563, Train acc: 0.9578, Test loss: 0.0705, Test acc: 0.9794
+[2025-07-04 00:44:39,310] INFO - Epoch 14/15 - Train loss: 0.1511, Train acc: 0.9582, Test loss: 0.0674, Test acc: 0.9781
+[2025-07-04 00:44:54,751] INFO - Epoch 15/15 - Train loss: 0.1454, Train acc: 0.9607, Test loss: 0.0680, Test acc: 0.9799
+[2025-07-04 00:44:55,205] INFO - Обучение модели с конфигурацией: L2 regularization (1e-4)
+[2025-07-04 00:45:10,752] INFO - Epoch 1/15 - Train loss: 0.2580, Train acc: 0.9213, Test loss: 0.1234, Test acc: 0.9616
+[2025-07-04 00:45:26,317] INFO - Epoch 2/15 - Train loss: 0.1042, Train acc: 0.9682, Test loss: 0.0953, Test acc: 0.9682
+[2025-07-04 00:45:41,830] INFO - Epoch 3/15 - Train loss: 0.0741, Train acc: 0.9767, Test loss: 0.0893, Test acc: 0.9731
+[2025-07-04 00:45:57,368] INFO - Epoch 4/15 - Train loss: 0.0581, Train acc: 0.9814, Test loss: 0.0762, Test acc: 0.9767
+[2025-07-04 00:46:12,880] INFO - Epoch 5/15 - Train loss: 0.0506, Train acc: 0.9834, Test loss: 0.0829, Test acc: 0.9743
+[2025-07-04 00:46:28,417] INFO - Epoch 6/15 - Train loss: 0.0451, Train acc: 0.9853, Test loss: 0.0747, Test acc: 0.9777
+[2025-07-04 00:46:43,934] INFO - Epoch 7/15 - Train loss: 0.0376, Train acc: 0.9877, Test loss: 0.0867, Test acc: 0.9748
+[2025-07-04 00:46:59,461] INFO - Epoch 8/15 - Train loss: 0.0342, Train acc: 0.9889, Test loss: 0.0779, Test acc: 0.9791
+[2025-07-04 00:47:14,999] INFO - Epoch 9/15 - Train loss: 0.0341, Train acc: 0.9893, Test loss: 0.0699, Test acc: 0.9790
+[2025-07-04 00:47:30,500] INFO - Epoch 10/15 - Train loss: 0.0271, Train acc: 0.9910, Test loss: 0.0847, Test acc: 0.9768
+[2025-07-04 00:47:46,001] INFO - Epoch 11/15 - Train loss: 0.0287, Train acc: 0.9906, Test loss: 0.0837, Test acc: 0.9787
+[2025-07-04 00:48:01,539] INFO - Epoch 12/15 - Train loss: 0.0265, Train acc: 0.9910, Test loss: 0.0807, Test acc: 0.9779
+[2025-07-04 00:48:17,049] INFO - Epoch 13/15 - Train loss: 0.0257, Train acc: 0.9917, Test loss: 0.0753, Test acc: 0.9809
+[2025-07-04 00:48:32,633] INFO - Epoch 14/15 - Train loss: 0.0245, Train acc: 0.9917, Test loss: 0.0778, Test acc: 0.9796
+[2025-07-04 00:48:48,145] INFO - Epoch 15/15 - Train loss: 0.0214, Train acc: 0.9928, Test loss: 0.0859, Test acc: 0.9762
+[2025-07-04 00:48:48,615] INFO - Эксперименты по регуляризации завершены
+[2025-07-04 00:48:48,615] INFO - Начало экспериментов по адаптивной регуляризации
+[2025-07-04 00:48:48,615] INFO - Запуск экспериментов по адаптивной регуляризации
+[2025-07-04 00:48:48,648] INFO - Обучение с BatchNorm (momentum=0.1) и адаптивным Dropout
+[2025-07-04 00:49:04,883] INFO - Epoch 1/15 - Dropout p=0.000 - Train acc: 0.9395, Test acc: 0.9743
+[2025-07-04 00:49:20,670] INFO - Epoch 2/15 - Dropout p=0.036 - Train acc: 0.9695, Test acc: 0.9744
+[2025-07-04 00:49:36,997] INFO - Epoch 3/15 - Dropout p=0.071 - Train acc: 0.9730, Test acc: 0.9814
+[2025-07-04 00:49:53,333] INFO - Epoch 4/15 - Dropout p=0.107 - Train acc: 0.9758, Test acc: 0.9823
+[2025-07-04 00:50:09,666] INFO - Epoch 5/15 - Dropout p=0.143 - Train acc: 0.9749, Test acc: 0.9800
+[2025-07-04 00:50:25,986] INFO - Epoch 6/15 - Dropout p=0.179 - Train acc: 0.9757, Test acc: 0.9813
+[2025-07-04 00:50:42,182] INFO - Epoch 7/15 - Dropout p=0.214 - Train acc: 0.9737, Test acc: 0.9823
+[2025-07-04 00:50:58,447] INFO - Epoch 8/15 - Dropout p=0.250 - Train acc: 0.9735, Test acc: 0.9839
+[2025-07-04 00:51:14,724] INFO - Epoch 9/15 - Dropout p=0.286 - Train acc: 0.9699, Test acc: 0.9826
+[2025-07-04 00:51:31,029] INFO - Epoch 10/15 - Dropout p=0.321 - Train acc: 0.9694, Test acc: 0.9827
+[2025-07-04 00:51:47,367] INFO - Epoch 11/15 - Dropout p=0.357 - Train acc: 0.9660, Test acc: 0.9823
+[2025-07-04 00:52:03,936] INFO - Epoch 12/15 - Dropout p=0.393 - Train acc: 0.9628, Test acc: 0.9815
+[2025-07-04 00:52:20,623] INFO - Epoch 13/15 - Dropout p=0.429 - Train acc: 0.9580, Test acc: 0.9832
+[2025-07-04 00:52:36,944] INFO - Epoch 14/15 - Dropout p=0.464 - Train acc: 0.9556, Test acc: 0.9827
+[2025-07-04 00:52:53,287] INFO - Epoch 15/15 - Dropout p=0.500 - Train acc: 0.9508, Test acc: 0.9812
+[2025-07-04 00:52:53,746] INFO - Обучение с BatchNorm (momentum=0.5) и адаптивным Dropout
+[2025-07-04 00:53:09,809] INFO - Epoch 1/15 - Dropout p=0.000 - Train acc: 0.9396, Test acc: 0.9722
+[2025-07-04 00:53:26,276] INFO - Epoch 2/15 - Dropout p=0.036 - Train acc: 0.9702, Test acc: 0.9729
+[2025-07-04 00:53:42,879] INFO - Epoch 3/15 - Dropout p=0.071 - Train acc: 0.9734, Test acc: 0.9769
+[2025-07-04 00:53:59,276] INFO - Epoch 4/15 - Dropout p=0.107 - Train acc: 0.9752, Test acc: 0.9789
+[2025-07-04 00:54:15,601] INFO - Epoch 5/15 - Dropout p=0.143 - Train acc: 0.9763, Test acc: 0.9811
+[2025-07-04 00:54:31,797] INFO - Epoch 6/15 - Dropout p=0.179 - Train acc: 0.9755, Test acc: 0.9826
+[2025-07-04 00:54:48,086] INFO - Epoch 7/15 - Dropout p=0.214 - Train acc: 0.9743, Test acc: 0.9792
+[2025-07-04 00:55:04,287] INFO - Epoch 8/15 - Dropout p=0.250 - Train acc: 0.9748, Test acc: 0.9802
+[2025-07-04 00:55:20,607] INFO - Epoch 9/15 - Dropout p=0.286 - Train acc: 0.9723, Test acc: 0.9774
+[2025-07-04 00:55:36,769] INFO - Epoch 10/15 - Dropout p=0.321 - Train acc: 0.9694, Test acc: 0.9818
+[2025-07-04 00:55:53,009] INFO - Epoch 11/15 - Dropout p=0.357 - Train acc: 0.9661, Test acc: 0.9825
+[2025-07-04 00:56:09,340] INFO - Epoch 12/15 - Dropout p=0.393 - Train acc: 0.9639, Test acc: 0.9818
+[2025-07-04 00:56:25,567] INFO - Epoch 13/15 - Dropout p=0.429 - Train acc: 0.9600, Test acc: 0.9790
+[2025-07-04 00:56:41,824] INFO - Epoch 14/15 - Dropout p=0.464 - Train acc: 0.9560, Test acc: 0.9805
+[2025-07-04 00:56:58,147] INFO - Epoch 15/15 - Dropout p=0.500 - Train acc: 0.9518, Test acc: 0.9766
+[2025-07-04 00:56:58,628] INFO - Обучение с BatchNorm (momentum=0.9) и адаптивным Dropout
+[2025-07-04 00:57:14,601] INFO - Epoch 1/15 - Dropout p=0.000 - Train acc: 0.9394, Test acc: 0.9631
+[2025-07-04 00:57:30,835] INFO - Epoch 2/15 - Dropout p=0.036 - Train acc: 0.9697, Test acc: 0.9712
+[2025-07-04 00:57:46,953] INFO - Epoch 3/15 - Dropout p=0.071 - Train acc: 0.9751, Test acc: 0.9705
+[2025-07-04 00:58:03,232] INFO - Epoch 4/15 - Dropout p=0.107 - Train acc: 0.9761, Test acc: 0.9606
+[2025-07-04 00:58:19,492] INFO - Epoch 5/15 - Dropout p=0.143 - Train acc: 0.9760, Test acc: 0.9790
+[2025-07-04 00:58:35,673] INFO - Epoch 6/15 - Dropout p=0.179 - Train acc: 0.9757, Test acc: 0.9681
+[2025-07-04 00:58:51,904] INFO - Epoch 7/15 - Dropout p=0.214 - Train acc: 0.9747, Test acc: 0.9797
+[2025-07-04 00:59:08,053] INFO - Epoch 8/15 - Dropout p=0.250 - Train acc: 0.9717, Test acc: 0.9801
+[2025-07-04 00:59:24,200] INFO - Epoch 9/15 - Dropout p=0.286 - Train acc: 0.9725, Test acc: 0.9693
+[2025-07-04 00:59:40,395] INFO - Epoch 10/15 - Dropout p=0.321 - Train acc: 0.9692, Test acc: 0.9788
+[2025-07-04 00:59:56,511] INFO - Epoch 11/15 - Dropout p=0.357 - Train acc: 0.9664, Test acc: 0.9726
+[2025-07-04 01:00:12,678] INFO - Epoch 12/15 - Dropout p=0.393 - Train acc: 0.9635, Test acc: 0.9715
+[2025-07-04 01:00:28,876] INFO - Epoch 13/15 - Dropout p=0.429 - Train acc: 0.9606, Test acc: 0.9772
+[2025-07-04 01:00:45,135] INFO - Epoch 14/15 - Dropout p=0.464 - Train acc: 0.9556, Test acc: 0.9742
+[2025-07-04 01:01:01,274] INFO - Epoch 15/15 - Dropout p=0.500 - Train acc: 0.9508, Test acc: 0.9628
+[2025-07-04 01:01:01,899] INFO - Эксперименты по адаптивной регуляризации завершены
+[2025-07-04 01:01:01,899] INFO - Все эксперименты завершены
