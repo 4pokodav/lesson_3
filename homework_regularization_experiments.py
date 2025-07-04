@@ -137,7 +137,7 @@ def plot_weights_distribution(model, title):
     plt.ylabel('Frequency')
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig(os.path.join(RESULTS_DIR, f'{title.replace(" ", "_")}_weights_hist.png'))
+    plt.savefig(f"homework_3/plots/{title.replace(' ', '_')}_weights_hist.png")
     plt.close()
 
 
@@ -171,7 +171,8 @@ def experiment_regularization():
         results[cfg['name']] = history
 
         # Визуализация графиков обучения
-        plot_history(history, title_prefix=cfg['name'], save_path=os.path.join(RESULTS_DIR, f"{cfg['name'].replace(' ', '_')}_history.png"))
+        plot_history(history, title_prefix=cfg['name'], save_path=f"homework_3/plots/{cfg['name'].replace(' ', '_')}_history.png")
+
         # Визуализация распределения весов после обучения
         plot_weights_distribution(model, cfg['name'])
 
@@ -304,7 +305,7 @@ def experiment_adaptive_regularization():
         model, history = train_model_with_adaptive_dropout(momentum=momentum)
         name = f"Adaptive Dropout + BatchNorm momentum={momentum}"
         results[name] = history
-        plot_history(history, title_prefix=name, save_path=os.path.join(RESULTS_DIR, f"{name.replace(' ', '_')}_history.png"))
+        plot_history(history, title_prefix=name, save_path=f"homework_3/plots/{name.replace(' ', '_')}_history.png")
         plot_weights_distribution(model, name)
 
     logging.info("Эксперименты по адаптивной регуляризации завершены")
