@@ -9,13 +9,41 @@
 - 5 слоев (4 скрытых) | (train acc - 0.9801; test acc - 0.9737; training time - 79.22)
 - 7 слоев (6 скрытых) | (train acc - 0.979; test acc - 0.9769; training time - 80.79)
 
-Графики с обучением находятся в директории plots/.
+Модель с 1 слоем:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/depth_1.png)
+
+Модель с 2 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/depth_2.png)
+
+Модель с 3 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/depth_3.png)
+
+Модель с 5 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/depth_5.png)
+
+Модель с 7 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/depth_7.png)
 
 ### 1.2 Анализ переобучения (15 баллов)
 Исследовал влияние глубины на переобучение:
 - Построил графики train/test accuracy по эпохам
 - Добавил Dropout и BatchNorm, результаты оказались похожие.
 - В основном, переобучения не было. Только у модели с глубиной 7 после 8 эпохи начилось переобучение.
+
+Модель с 1 слоем:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/overfitting_depth_1.png)
+
+Модель с 2 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/overfitting_depth_2.png)
+
+Модель с 3 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/overfitting_depth_3.png)
+
+Модель с 5 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/overfitting_depth_5.png)
+
+Модель с 7 слоями:
+![Layers](https://github.com/4pokodav/lesson_3/raw/main/plots/overfitting_depth_7.png)
 
 ## Задание 2: Эксперименты с шириной сети (25 баллов)
 
@@ -28,11 +56,25 @@
 
 Количество параметров возрастает примерно в 5 раз при каждом увеличении ширины. У последней модели примерно 4.5 млн параметров.
 
+Модель с узкими слоями:
+![Layers width](https://github.com/4pokodav/lesson_3/raw/main/plots/width_narrow.png)
+
+Модель с средними слоями:
+![Layers width](https://github.com/4pokodav/lesson_3/raw/main/plots/width_medium.png)
+
+Модель с широкими слоями:
+![Layers width](https://github.com/4pokodav/lesson_3/raw/main/plots/width_wide.png)
+
+Модель с очень широкими слоями:
+![Layers width](https://github.com/4pokodav/lesson_3/raw/main/plots/width_very_wide.png)
+
 ### 2.2 Оптимизация архитектуры (10 баллов)
 
 Найдите оптимальную архитектуру:
 - Использовал grid search для поиска лучшей комбинации
 - Визуализиализировал результаты в виде heatmap
+
+![Heatmap](https://github.com/4pokodav/lesson_3/raw/main/plots/grid_search_heatmap.png)
 
 ## Задание 3: Эксперименты с регуляризацией (25 баллов)
 
