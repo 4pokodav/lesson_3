@@ -128,7 +128,7 @@ L2 регуляризация:
 ![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/L2_regularization_(1e-4)_history.png)
 ![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/L2_regularization_(1e-4)_weights_hist.png)
 
-Наилучший результат показала модель x (acc = x)
+Наилучший результат показала модель только с dropout = 0.3 (acc = 0.9763)
 
 ### 3.2 Адаптивная регуляризация (10 баллов)
 
