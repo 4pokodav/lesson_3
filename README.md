@@ -149,4 +149,5 @@ BatchNorm с различными momentum:
 ![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.9_history.png)
 ![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.9_weights_hist.png)
 
-Наилучший результат показала модель x (acc = x)
+Обучение моделей оказалось нестабильным. К тому же, после 3-4 эпохи начиналось переобучение.
+Наилучший результат показала модель Dropout с изменяющимся коэффициентом (acc = 0.9883)
