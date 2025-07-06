@@ -99,6 +99,36 @@
 - Dropout + BatchNorm
 - L2 регуляризация (weight decay)
 
+Без регуляризации:
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/No_Regularization_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/No_Regularization_weights_hist.png)
+
+Только Dropout:
+Dropout = 0.1
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.1_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.1_weights_hist.png)
+
+Dropout = 0.3
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.3_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.3_weights_hist.png)
+
+Dropout = 0.5
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.5_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.5_weights_hist.png)
+
+Только BatchNorm:
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/BatchNorm_only_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/BatchNorm_only_weights_hist.png)
+
+Dropout + BatchNorm:
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.5_+_BatchNorm_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Dropout_0.5_+_BatchNorm_weights_hist.png)
+
+L2 регуляризация:
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/L2_regularization_(1e-4)_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/L2_regularization_(1e-4)_weights_hist.png)
+
+Наилучший результат показала модель x (acc = x)
 
 ### 3.2 Адаптивная регуляризация (10 баллов)
 
@@ -106,3 +136,17 @@
 - Dropout с изменяющимся коэффициентом
 - BatchNorm с различными momentum
 - Комбинирование нескольких техник
+
+Dropout с изменяющимся коэффициентом:
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.1_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.1_weights_hist.png)
+
+BatchNorm с различными momentum:
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.5_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.5_weights_hist.png)
+
+Комбинирование нескольких техник:
+![Accuracy](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.9_history.png)
+![Weights](https://github.com/4pokodav/lesson_3/raw/main/plots/Adaptive_Dropout_+_BatchNorm_momentum=0.9_weights_hist.png)
+
+Наилучший результат показала модель x (acc = x)
